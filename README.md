@@ -12,6 +12,21 @@ Reasons to choose this boards are:
 * WiFi/BLE (for future improvements)
 * And it's cheap
 
+# Releases
+
+## [V4.1 - New TTGO T-Display version based on Gert Baak's V3.4](Si473x_Rotary_Encoder_Interface_V4.1)
+
+* New user interface 
+* "Press and hold" performing different actions
+* Battery icon
+* Bug fixes
+
+For more details, see [README V4.1](Si473x_Rotary_Encoder_Interface_V4.1/README.md).
+
+## [V3 - Initial Release](Si473x_Rotary_Encoder_Interface)
+
+First release. Alpha version
+
 # Proof of concept
 
 As a proof of concept, I built a pocket radio using a can of skateboard bearings. This can is smaller than an Altoids tin.
@@ -42,6 +57,8 @@ As a proof of concept, I built a pocket radio using a can of skateboard bearings
 
 # Pictures:
 
+## Version V3
+
 * Front view
 <img src="extras/images/Si473x_TTGO_TDisplay_front_view.jpg" width="400px"/>
 
@@ -60,6 +77,14 @@ As a proof of concept, I built a pocket radio using a can of skateboard bearings
 * Rotary encoder close view
 <img src="extras/images/Si473x_TTGO_TDisplay_rotary_encoder_close_view.jpg" width="400px"/>
 
+## Version V4.1
+
+* Main View
+<img src="Si473x_Rotary_Encoder_Interface_V4.1/extras/images/Main_View.jpeg" width="400px"/>
+
+* Menu View
+<img src="Si473x_Rotary_Encoder_Interface_V4.1/extras/images/Menu.jpeg" width="400px"/>
+
 # References
 
 1. [PU2CLR SI4735 Library for Arduino](https://github.com/pu2clr/SI4735)
@@ -69,3 +94,19 @@ As a proof of concept, I built a pocket radio using a can of skateboard bearings
 3. [https://github.com/pu2clr/SI4735/tree/master/examples/SI47XX_KITS/THIAGO_LIMA](https://github.com/pu2clr/SI4735/tree/master/examples/SI47XX_KITS/THIAGO_LIMA)
 
 4. [TTGO T-Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
+
+# DISCLAMER
+
+ATTENTION: The author of this project does not guarantee that procedures shown here will work in your development environment.
+Given this, it is at your own risk to continue with the procedures suggested here.
+
+This library works with the I2C communication protocol and it is designed to apply a SSB extension PATCH to CI SI4735-D60.
+Once again, the author disclaims any liability for any damage this procedure may cause to your SI4735 or other devices, like an ATS-100 that you are using.
+
+There is NO GUARANTEE that this sketch will work with the Chinese ATS-100 KIT sold on AliExpress, eBay etc.
+
+The author of this sketch and Arduino Library does not know the seller of this kit and does not have a commercial relationship with any commercial product that uses the Arduino Library.
+
+It is important you understand that there is no guarantee that this sketch will work correctly in your current product.
+
+SO, DO NOT TRY IT IF YOU DON'T KNOW WHAT ARE YOU DOING. YOU MUST BE ABLE TO GO BACK TO THE PREVIOUS VERSION IF THIS SKETCH DOES NOT WORK FOR YOU.
