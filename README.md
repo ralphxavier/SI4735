@@ -48,6 +48,9 @@ As a proof of concept, I built a pocket radio using a can of skateboard bearings
 * Si4735
 ![Si4735](extras/schematics/schematic_ttgo_tdisplay.png)
 
+* Si4732
+![Si4732](extras/schematics/schematic_ttgo_tdisplay_Si4732.png)
+
 # Videos:
 
 * [Si473x - New menu - First test](https://youtu.be/CNm_gOjVeSI)
