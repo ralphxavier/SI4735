@@ -59,9 +59,9 @@ Not avaliable yet
 
 # Pictures:
 
-## Version V0.1
+## Version V0.2
 
-* Not avaliable yet
+![Si4732](../extras/images/Volos_TEmbedFMRadioLilygo_T-Display_S3_front_view.jpeg)
 
 # References
 
